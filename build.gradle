@@ -19,10 +19,6 @@ allprojects {
     }
 }
 
-task clean(type: Delete) {
-    delete rootProject.buildDir
-}
-
 allprojects {
     group = 'me.dm7.barcodescanner'
     version = '1.9.8'
